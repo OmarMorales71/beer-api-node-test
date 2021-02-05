@@ -1,7 +1,12 @@
-const { Router }= require('express')
+// dependencies 
+const { Router } = require('express')
+// controllers
 const beerController = require('../controller/beer.controller')
-
+// initialization
 const router = new Router();
+
+// routes section
 router.get("/", beerController)
 
-module.exports=router
+// export
+module.exports = router

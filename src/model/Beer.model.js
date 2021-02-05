@@ -1,23 +1,24 @@
+// models usually used with moongose
 class Beer{
-    constructor(name, type){
-        this.name=name;
-        this.type=type;
+    constructor( name, type ){
+        this.name = name;
+        this.type = type;
     }
 
     getName(){
         return this.name;
     }
 
-    setName(name){
-        this.name=name;
+    setName( name ){
+        this.name = name;
     }
 
     getType(){
         return this.type;
     }
 
-    setType(type){
-        this.type=type;
+    setType( type ){
+        this.type = type;
     }
 }
 
