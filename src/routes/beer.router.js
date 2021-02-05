@@ -9,4 +9,4 @@ const router = new Router();
 router.get("/", beerController)
 
 // export
-module.exports = router
+module.exports = router;

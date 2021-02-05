@@ -22,4 +22,4 @@ class Beer{
     }
 }
 
-module.exports = Beer
+module.exports = Beer;
